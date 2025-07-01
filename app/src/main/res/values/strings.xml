@@ -1,0 +1,108 @@
+<resources>
+    <!-- Nome do aplicativo -->
+    <string name="app_name">Medidor de distâncias AR</string>
+
+    <!-- URLs e títulos para visualização de cenas -->
+    <string name="scene_viewer_native_uri">https://arvr.google.com/scene-viewer/1.1</string>
+    <string name="scene_viewer_native_model">https://simon-marquis.fr/ar/Astronaut.glb</string>
+    <string name="scene_viewer_native_link">https://poly.google.com/view/dLHpzNdygsg</string>
+    <string name="scene_viewer_native_title">Astronauta</string>
+    <string name="scene_viewer_web">https://model-viewer.glitch.me/</string>
+
+    <!-- Dicas de ferramentas para modelos 3D -->
+    <string name="tooltip_model_sphere">Esfera</string>
+    <string name="tooltip_model_cylinder">Cilindro</string>
+    <string name="tooltip_model_cube">Cubo</string>
+    <string name="tooltip_model_layout">Layout</string>
+    <string name="tooltip_model_andy">Andy</string>
+    <string name="tooltip_model_drawing">Desenho</string>
+    <string name="tooltip_model_link">Link</string>
+    <string name="tooltip_model_cloud_anchor">Âncora na Nuvem</string>
+    <string name="tooltip_model_video">Vídeo</string>
+    <string name="tooltip_model_measure">Medidor</string>
+
+    <!-- Formatos de exibição -->
+    <string name="format_pose_translation">[x:%1$ .03f, y:%2$ .03f, z:%3$ .03f]</string>
+    <string name="format_pose_rotation">[x:%1$ .02f, y:%2$ .02f, z:%3$ .02f, w:%4$ .02f]</string>
+    <string name="format_vector3">[x:%1$ .03f, y:%2$ .03f, z:%3$ .03f]</string>
+    <string name="format_quaternion">[x:%1$ .02f, y:%2$ .02f, z:%3$ .02f, w:%4$ .02f]</string>
+    <string name="format_session">[Âncoras:%1$d, Planos:%2$d, Pontos:%3$d, Profundidade:%4$d]</string>
+    <string name="format_camera_config">[Tamanho:%1$s, Fps:%2$s, Profundidade:%3$b]</string>
+    <string name="format_distance_m">%.2f&#160;m</string>
+    <string name="format_distance_cm">%d&#160;cm</string>
+    <string name="format_measure_single">[%1$s×%2$s]</string>
+    <string name="format_measure_multiple">[%1$s×%2$s] =&#160;%3$s</string>
+
+    <!-- Mensagens de rastreamento AR -->
+    <string name="tracking_success">Rastreando</string>
+    <string name="tracking_stopped">Rastreamento parado</string>
+    <string name="tracking_failure_none">Rastreamento pausado</string>
+    <string name="tracking_failure_bad_state">Estado inválido</string>
+    <string name="tracking_failure_insufficient_light">Luz insuficiente</string>
+    <string name="tracking_failure_excessive_motion">Movimento excessivo</string>
+    <string name="tracking_failure_insufficient_features">Características insuficientes</string>
+    <string name="tracking_failure_camera_unavailable">Câmera indisponível</string>
+    <string name="augmented_faces">Faces Aumentadas</string>
+
+    <!-- Itens de menu -->
+    <string name="menu_item_screenshot">Captura de tela</string>
+    <string name="menu_item_record">Filmar tela</string>
+    <string name="menu_item_quality_2160p">2160p</string>
+    <string name="menu_item_quality_1080p">1080p</string>
+    <string name="menu_item_quality_720p">720p</string>
+    <string name="menu_item_quality_480p">480p</string>
+    <string name="menu_item_modes">Trocar modo</string>
+    <string name="menu_item_mode_scene">Cena 3D</string>
+    <string name="menu_item_mode_faces">Faces Aumentadas</string>
+    <string name="menu_item_mode_native_viewer">Visualizador Nativo</string>
+    <string name="menu_item_mode_web_viewer">Visualizador Web</string>
+    <string name="menu_item_performance_overlay">Sobreposição de desempenho</string>
+    <string name="menu_item_resolve_cloud_anchor">Resolver Âncora na Nuvem</string>
+    <string name="menu_item_clean_up_scene">Limpar cena</string>
+    <string name="menu_item_settings">Configurações</string>
+    <string name="menu_item_sunlight">Luz solar</string>
+    <string name="menu_item_shadows">Sombras</string>
+    <string name="menu_item_plane_renderer">Renderizador de planos</string>
+    <string name="menu_item_selection_visualizer">Visualizador de seleção</string>
+    <string name="menu_item_reticle">Retículo</string>
+    <string name="menu_item_point_cloud">Nuvem de pontos</string>
+    <string name="menu_item_face_regions">Regiões faciais</string>
+    <string name="menu_item_face_mesh">Malha facial</string>
+    <string name="menu_item_oss">Licenças de Código Aberto</string>
+
+    <!-- Rótulos de entrada -->
+    <string name="entry_position_label">Posição</string>
+    <string name="entry_rotation_label">Rotação</string>
+    <string name="entry_scene_label">Cena</string>
+    <string name="entry_camera_label">Câmera</string>
+    <string name="entry_color_label">Cor</string>
+    <string name="entry_cloud_anchor_id_label">ID</string>
+    <string name="entry_cloud_anchor_state_label">Estado</string>
+    <string name="entry_metallic_label">Metálico</string>
+    <string name="entry_roughness_label">Rugosidade</string>
+    <string name="entry_reflectance_label">Refletância</string>
+    <string name="entry_measure_label">Medição</string>
+    <string name="entry_scale_label">Escala</string>
+    <string name="entry_face_forehead_left_label">Testa esquerda</string>
+    <string name="entry_face_forehead_right_label">Testa direita</string>
+    <string name="entry_face_nose_tip_label">Ponta do nariz</string>
+
+    <!-- Mensagens de status -->
+    <string name="screenshot_saving">Salvando captura de tela…</string>
+    <string name="recording">Gravando…</string>
+
+    <!-- Dicas e instruções -->
+    <string name="model_link_custom_hint">sfb, glTF, glb, …</string>
+    <string name="cloud_anchor_id_hint">ID da Âncora na Nuvem</string>
+    <string name="cloud_anchor_id_resolve">Resolver</string>
+    <string name="cloud_anchor_id_label">ID da Âncora na Nuvem</string>
+    <string name="cloud_anchor_id_copied_to_clipboard">ID da Âncora copiada para a área de transferência!</string>
+
+    <!-- Mensagens de erro -->
+    <string name="exception_arcore_not_installed">Instale o ARCore</string>
+    <string name="exception_apk_too_old">Atualize o ARCore</string>
+    <string name="exception_sdk_too_old">Atualize este aplicativo</string>
+    <string name="exception_device_not_compatible">Este dispositivo não suporta AR</string>
+    <string name="exception_user_declined_installation">Usuário recusou instalação</string>
+    <string name="exception_unknown">Falha ao criar sessão AR</string>
+</resources>

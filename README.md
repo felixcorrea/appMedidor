@@ -209,9 +209,3 @@ O projeto também evidenciou a importância de uma arquitetura bem estruturada, 
 
 Para projetos AR que requerem máxima performance, controle granular e acesso a funcionalidades avançadas, Kotlin com ARCore/Sceneform continua sendo a solução mais robusta e confiável disponível no ecossistema Android.
 
----
-
-**Data do Relatório**: Dezembro 2024  
-**Versão do Projeto**: 1.15.0  
-**Tecnologias Analisadas**: Kotlin, ARCore, Sceneform, Android Jetpack  
-**Comparação**: Kotlin vs Dart/Flutter para desenvolvimento AR 
